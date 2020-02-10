@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://cdb-kc7z7ask.cd.tencentcdb.com:10027/mndd_wat?useUnicode=true&characterEncoding=UTF-8
+    username: mndd_wat
+    password: mndd_wat@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8091
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
